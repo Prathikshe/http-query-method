@@ -1,0 +1,13 @@
+{
+  "name": "query-api-node",
+  "version": "1.0.0",
+  "description": "Payment transaction search/reconciliation API using the HTTP QUERY method",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
